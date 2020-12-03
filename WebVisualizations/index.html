@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Summary: Latitude vs X</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summary: Latitude vs X</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
-<div class="topnav">
-    <a href="index.html" id='lat'>Latitude</a>
-    <a href="dataTable.html" class='right'>Data</a>
-    <a href="comparison.html" class='right'>Comparison</a>
-    <div class="dropdown">
-        <button class="dropbtn">Plots
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="vizTemp.html">Latitude vs. Max Temperature</a>
-          <a href="vizHum.html">Latitude vs. Humidity</a>
-          <a href="vizCloud.html">Latitude vs. Cloudiness</a>
-          <a href="vizWind.html">Latitude vs. Wind Speed</a>
-        </div>
-      </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
+    <div class="navbar-right">
+        <ul class="nav navbar-nav">
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="vizTemp.html">Latitude vs. Max Temperature</a></li>
+                    <li><a href="vizHum.html">Latitude vs. Humidity</a></li>
+                    <li><a href="vizCloud.html">Latitude vs. Cloudiness</a></li>
+                    <li><a href="vizWind.html">Latitude vs. Wind Speed</a></li>
+                </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="dataTable.html">Data</a></li>
+        </ul>
+    </div>
   </div>
+</nav>
+  
+<div class="container">
+  <h3>Navbar With Dropdown</h3>
+  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
+</div>
+
 
 <body>
     <div id='box'>

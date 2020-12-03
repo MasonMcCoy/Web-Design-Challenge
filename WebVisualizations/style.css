@@ -43,37 +43,9 @@ p {
     margin-bottom: 175px;
 }
 
-.topnav {
-    background-color: white;
-    padding-left: 10px;
-    overflow: hidden;
-  }
-
 #lat {
+    float: left;
     background-color: darkcyan;
     color: white;
     font-weight: bold;
   }
-  
-.topnav a {
-    float: left;
-    color: dimgrey;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 18px;
-  }
-  
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-.topnav a.right {
-    float: right;
-    padding-left: 20px;
-  }
-
-.dropdown {
-    float: right;
-    padding-left: 20px;
-}
